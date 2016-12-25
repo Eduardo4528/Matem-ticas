@@ -1,0 +1,366 @@
+puts'Hola, ma llamo Ok Computer'" Ed O'Brien
+¿Cuál es tu nombre?"
+name =gets.chomp
+if (name ==name.capitalize or name ==name.upcase)
+puts'Ok, preparate porque haras unos ejercicios matemáticos'
+else
+puts'Escribe bien, los nombres siempre comienzan con mayúscula
+Ufff!, no importa comenzemos con los ejercicios matemáticos'
+end
+puts'
+
+
+EJERCICIOS MATEMATICOS
+
+'
+valor =(rand(10))
+vvalor =(rand(10))
+puts +valor.to_s+' + '+vvalor.to_s+' ='
+answer =gets.chomp.to_i
+if answer ==valor+vvalor
+puts'Muy bien'
+point =1
+else
+puts'Mal'
+mal =1
+end
+puts'
+'
+valor1 =(rand(10))
+vvalor1 =(rand(10))
+puts +valor1.to_s+' - '+vvalor1.to_s+' ='
+answer1 =gets.chomp.to_i
+if answer1 ==valor1-vvalor1
+puts'Muy bien'
+point1 =1
+else
+puts'Mal'
+mal1 =1  
+end 
+puts'
+'
+valor2 =(rand(10)) 
+vvalor2 =(rand(4))
+puts +valor2.to_s+' X '+vvalor2.to_s+' ='
+answer2 =gets.chomp.to_i
+if answer2 ==valor2*vvalor2
+puts'Muy bien'
+point2 =1
+else
+puts'Mal'	
+mal2 =1 	
+end 	
+puts' 
+'
+valor3 =(rand(8))
+vvalor3 =(rand(1..4))
+puts +valor3.to_s+' / '+vvalor3.to_s+' ='
+answer3 =gets.chomp.to_i
+if answer3 ==valor3/vvalor3
+puts'Muy bien'
+point3 =1	
+else
+puts'Mal'
+mal3 =1 	
+end 
+puts'
+'
+valor4 =(rand(100))
+vvalor4 =(rand(4))
+puts +valor4.to_s+' X '+vvalor4.to_s+' ='
+answer4 =gets.chomp.to_i
+if answer4 ==valor4*vvalor4
+puts'Muy bien'
+point4 =1
+else
+puts'Mal'
+mal4 =1	
+end 
+puts'
+'
+valor5 =(rand(700))
+vvalor5 =(rand(700))
+puts +valor5.to_s+' + '+vvalor5.to_s+' ='
+answer5 =gets.chomp.to_i
+if answer5 ==valor5+vvalor5
+puts'Muy bien'
+point5 =1
+else 
+puts'Mal'
+mal5 =1
+end
+puts'
+'
+valor6 =(rand(700))
+vvalor6 =(rand(700))
+puts +valor6.to_s+' - '+vvalor6.to_s+' ='
+answer6 =gets.chomp.to_i
+if answer6 ==valor6-vvalor6
+puts'Muy bien'
+point6 =1
+else
+puts'Mal'
+mal6 =1
+end
+puts'
+'
+valor7 =(rand(20))
+vvalor7 =(rand(1..8))
+puts +valor7.to_s+' / '+vvalor7.to_s+' ='
+answer7 =gets.chomp.to_i
+if answer7 ==valor7/vvalor7
+puts'Muy bien'
+point7 =1
+else
+puts'Mal'
+mal7 =1
+end
+puts'
+'
+valor8 =(rand(100))
+vvalor8 =(rand(10))
+puts +valor8.to_s+' X '+vvalor8.to_s+' ='
+answer8 =gets.chomp.to_i
+if answer8 ==valor8*vvalor8
+puts'Muy bien'
+point8 =1
+else
+puts'Mal'
+mal8 =1
+end
+puts'
+'
+valor9 =(rand(100))
+vvalor9 =(rand(1..10))
+puts +valor9.to_s+' / '+vvalor9.to_s+' ='
+answer9 =gets.chomp.to_i
+if answer9 ==valor9/vvalor9
+puts'Muy bien'
+point9 =1
+else
+puts'Mal'
+mal9 =1
+end
+puts'
+'
+valor10 =(rand(-10..-1))
+vvalor10 =(rand(10))
+vvvalor10 =(rand(-10..-1))
+vvvvalor10 =(rand(-10..-1))
+puts '('+valor10.to_s+' + '+vvalor10.to_s+') + ('+vvvalor10.to_s+' + '+vvvvalor10.to_s+')'
+answer10 =gets.chomp.to_i
+if answer10 ==(valor10+vvalor10)+(vvvalor10+vvvvalor10)
+puts'Muy bien'
+point10 =1
+else
+puts'Mal'
+mal10 =1
+end
+puts'
+'
+valor11 =(rand(-10..-1))
+vvalor11 =(rand(10))
+vvvalor11 =(rand(-10..-1))
+vvvvalor11 =(rand(-10..-1))
+puts '('+valor11.to_s+' + '+vvalor11.to_s+') + ('+vvvalor11.to_s+' + '+vvvvalor11.to_s+')'
+answer11 =gets.chomp.to_i
+if answer11 ==(valor11+vvalor11)+(vvvalor11+vvvvalor11)
+puts'Muy bien'
+point11 =1
+else
+puts'Mal'
+mal11 =1
+end
+puts'
+'
+valor12 =(rand(10))
+vvalor12 =(rand(10))
+vvvalor12 =(rand(10))
+vvvvalor12 =(rand(10))
+puts '('+valor12.to_s+' - '+vvalor12.to_s+') + ('+vvvalor12.to_s+' - '+vvvvalor12.to_s+')'
+answer12 =gets.chomp.to_i
+if answer12 ==(valor12-vvalor12)+(vvvalor12-vvvvalor12)
+puts'Muy bien'
+point12 =1
+else
+puts'Mal'
+mal12 =1
+end
+puts'
+'
+valor13 =(rand(-10..-1))
+vvalor13 =(rand(-10..-1))
+vvvalor13 =(rand(-10..-1))
+vvvvalor13 =(rand(-10..-1))
+puts '('+valor13.to_s+' + '+vvalor13.to_s+') + ('+vvvalor13.to_s+' + '+vvvvalor13.to_s+')'
+answer13 =gets.chomp.to_i
+if answer13 ==(valor13+vvalor13)+(vvvalor13+vvvvalor13)
+puts'Muy bien'
+point13 =1
+else
+puts'Mal'
+mal13 =1
+end
+puts'
+'
+valor14 =(rand(10))
+vvalor14 =(rand(10))
+vvvalor14 =(rand(10))
+vvvvalor14 =(rand(10))
+puts '('+valor14.to_s+' + '+vvalor14.to_s+') - ('+vvvalor14.to_s+' + '+vvvvalor14.to_s+')'
+answer14 =gets.chomp.to_i
+if answer14 ==(valor14+vvalor14)-(vvvalor14+vvvvalor14)
+puts'Muy bien'
+point14 =1
+else
+puts'Mal'
+mal14 =1
+end
+puts'
+'
+valor15 =(rand(10))
+vvalor15 =(rand(10))
+vvvalor15 =(rand(15))
+vvvvalor15 =(rand(10))
+vvvvvalor15 =(rand(10))
+vvvvvvalor15 =(rand(15))
+puts '('+valor15.to_s+' + '+vvalor15.to_s+' + '+vvvalor15.to_s+') - ('+vvvvalor15.to_s+' + '+vvvvvalor15.to_s+' + '+vvvvvvalor15.to_s+')'
+answer15 =gets.chomp.to_i
+if answer15 ==(valor15+vvalor15+vvvalor15)-(vvvvalor15+vvvvvalor15+vvvvvvalor15)
+puts'Muy bien'
+point15 =1
+else
+puts'Mal'
+mal15 =1
+end
+puts'
+'
+valor16 =(rand(15))
+vvalor16 =(rand(15))
+vvvalor16 =(rand(15))
+vvvvalor16 =(rand(15))
+vvvvvalor16 =(rand(15))
+vvvvvvalor16 =(rand(15))
+puts '('+valor16.to_s+' + '+vvalor16.to_s+' + '+vvvalor16.to_s+') - ('+vvvvalor16.to_s+' + '+vvvvvalor16.to_s+' + '+vvvvvvalor16.to_s+')'
+answer16 =gets.chomp.to_i
+if answer16 ==(valor16+vvalor16+vvvalor16)-(vvvvalor16+vvvvvalor16+vvvvvvalor16)
+puts'Muy bien'
+point16 =1
+else
+puts'Mal'
+mal16 =1
+end
+puts'
+'
+valor17 =(rand(15))
+vvalor17 =(rand(15))
+vvvalor17 =(rand(15))
+vvvvalor17 =(rand(15))
+vvvvvalor17 =(rand(15))
+vvvvvvalor17 =(rand(15))
+puts '('+valor17.to_s+' + '+vvalor17.to_s+' - '+vvvalor17.to_s+') - ('+vvvvalor17.to_s+' + '+vvvvvalor17.to_s+' + '+vvvvvvalor17.to_s+')'
+answer17 =gets.chomp.to_i
+if answer17 ==(valor17+vvalor17-vvvalor17)-(vvvvalor17+vvvvvalor17+vvvvvvalor17)
+puts'Muy bien'
+point17 =1
+else
+puts'Mal'
+mal17 =1
+end
+puts'
+'
+valor18 =(rand(15..30))
+vvalor18 =(rand(15..30))
+vvvalor18 =(rand(15..30))
+vvvvalor18 =(rand(15..30))
+vvvvvalor18 =(rand(15..30))
+vvvvvvalor18 =(rand(15..30))
+puts '('+valor18.to_s+' + '+vvalor18.to_s+' - '+vvvalor18.to_s+') - ('+vvvvalor18.to_s+' + '+vvvvvalor18.to_s+' + '+vvvvvvalor18.to_s+')'
+answer18 =gets.chomp.to_i
+if answer18 ==(valor18+vvalor18-vvvalor18)-(vvvvalor18+vvvvvalor18+vvvvvvalor18)
+puts'Muy bien'
+point18 =1
+else
+puts'Mal'
+mal18 =1
+end
+puts'
+'
+valor19 =(rand(30..50))
+vvalor19 =(rand(30..50))
+vvvalor19 =(rand(30..50))
+vvvvalor19 =(rand(30..50))
+vvvvvalor19 =(rand(30..50))
+vvvvvvalor19 =(rand(30..50))
+vvvvvvvalor19 =(rand(30..50))
+vvvvvvvvalor19 =(rand(30..50))
+puts '('+valor19.to_s+' + '+vvalor19.to_s+' + '+vvvalor19.to_s+') - ('+vvvvalor19.to_s+' + '+vvvvvalor19.to_s+' + '+vvvvvvalor19.to_s+') - ('+vvvvvvvalor19.to_s+' + '+vvvvvvvvalor19.to_s+')'
+answer19 =gets.chomp.to_i
+if answer19 ==(valor19+vvalor19+vvvalor19)-(vvvvalor19+vvvvvalor19+vvvvvvalor19)-(vvvvvvvalor19+vvvvvvvvalor19)
+puts'Muy bien'
+point19 =1
+else
+puts'Mal'
+mal19 =1
+end
+point =point.to_i
+mal =mal.to_i
+point1 =point1.to_i
+mal1 =mal1.to_i
+point2 =point2.to_i
+mal2 =mal2.to_i
+point3 =point3.to_i
+mal3 =mal3.to_i
+point4 =point4.to_i
+mal4 =mal4.to_i
+point5 =point5.to_i
+mal5 =mal5.to_i
+point6 =point6.to_i
+mal6 =mal6.to_i
+point7 =point7.to_i
+mal7 =mal7.to_i
+point8 =point8.to_i
+mal8 =mal8.to_i
+point9 =point9.to_i
+mal9 =mal9.to_i
+point10 =point10.to_i
+mal10 =mal10.to_i
+point11 =point11.to_i
+mal11 =mal11.to_i
+point12 =point12.to_i
+mal12 =mal12.to_i
+point13 =point13.to_i
+mal13 =mal13.to_i
+point14 =point14.to_i
+mal14 =mal14.to_i
+point15 =point15.to_i
+mal15 =mal15.to_i
+point16 =point16.to_i
+mal16 =mal16.to_i
+point17 =point17.to_i
+mal17 =mal17.to_i
+point18 =point18.to_i
+mal18 =mal18.to_i
+point19 =point19.to_i
+mal19 =mal19.to_i
+puts'
+Hiciste bien '+(point+point1+point2+point3+point4+point5+point6+point7+point8+point9+point10+point11+point12+point13+point14+point15+point16+point17+point18+point19).to_s+' problemas matemáticos.
+
+Hiciste mal '+(mal+mal1+mal2+mal3+mal4+mal5+mal6+mal7+mal8+mal9+mal10+mal11+mal12+mal13+mal14+mal15+mal16+mal17+mal18+mal19).to_s+' problemas matemáticos.
+
+
+Esta es tu nota: '+(((point+point1+point2+point3+point4+point5+point6+point7+point8+point9+point10+point11+point12+point13+point14+point15+point16+point17+point18+point19).to_f)/2).to_s+''
+if ((point+point1+point2+point3+point4+point5+point6+point7+point8+point9+point10+point11+point12+point13+point14+point15+point16+point17+point18+point19).to_f)/2 >= 8.0
+puts'
+Excelente, sigue asi'
+else
+puts'
+Mal, mal, si sigues asi repitiras de año'
+end 
+puts'
+
+
+
+
+Created by: Eduardo Campos'
+gets
